@@ -1,4 +1,3 @@
-# power_bi_samples
+# Power BI samples
 
-
-test
+Data used in the articles on Proxify's Journal
