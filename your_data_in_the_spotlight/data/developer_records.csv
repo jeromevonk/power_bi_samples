@@ -1,10 +1,11 @@
-name, country, rate, date, hours_worked, software_stack
+name, country, rate, date, hours_worked, software_stack,
 Norval Shiloh Dickens,Brazil,USD 25,03-2023,145,Data Engineer,null
 Lambert Avery Murazik,Uruguay,USD 14,09-2023,123,Backend,null
 Georgianna Hayden West,Turkey,USD 39,07-2023,96,Data Engineer,null
 Laurianne Gray Gerlach,Brazil,USD 27,05-2023,89,Backend,null
 Christopher Bowie Spencer,Armenia,USD 23,02-2023,144,Frontend,null
 Claudia North Skiles,Turkey,USD 15,07-2023,133,Frontend,null
+,,,,,,
 Hobart Brooklyn Ward,Kenya,USD 14,12-2023,101,Frontend,null
 Lavinia Kennedy Swaniawski,Brazil,USD 21,01-2023,147,Frontend,null
 Estevan Jaden Lebsack,Turkey,USD 19,10-2023,122,Frontend,null
@@ -17,6 +18,7 @@ Ramona London Treutel,Brazil,USD 24,01-2023,136,Frontend,null
 Zoe Anderson Runte,Turkey,USD 27,08-2023,131,Data Engineer,null
 Carmel Brooklyn Lubowitz,Argentina,USD 25,09-2023,135,Frontend,null
 Bennie Shiloh Schumm,Uganda,USD 17,06-2023,168,DevOps,null
+,,,,,,
 Andreane Arden Schaden,Armenia,USD 14,05-2023,66,Frontend,null
 Eldred Marlowe Bernier-Langworth,Chile,USD 18,02-2023,127,Frontend,null
 Rose Marlowe Corwin-Cole,Brazil,USD 21,06-2023,169,Data Engineer,null
@@ -37,6 +39,7 @@ Shirley Austin Mosciski,Turkey,USD 15,09-2023,167,Backend,null
 Mya August Fay,Uruguay,USD 31,01-2023,150,Data Engineer,null
 Marlen Noah Grady,Chile,USD 16,09-2023,160,DevOps,null
 Jan Blake Pfannerstill,Peru,USD 26,09-2023,176,DevOps,null
+,,,,,,
 Talon Avery Daugherty,Uruguay,USD 42,08-2023,121,Data Engineer,null
 Sydnee Corey Rau,Brazil,USD 28,04-2023,99,Data Engineer,null
 Raven Shawn Moen,Turkey,USD 16,06-2023,90,Frontend,null
