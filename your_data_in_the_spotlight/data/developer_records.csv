@@ -1,15 +1,15 @@
-name, country, rate, date, hours_worked, software_stack
+name, country, rate, date, hours_worked, software_stack,
 Edyth Kyle Goodwin,Ivory Coast,USD 19,01-2023,107,Frontend,null
 Tyler Gray Nolan,Peru,USD 24,01-2023,108,Backend,null
+,,,,,,
 Duane Greer Breitenberg,Turkey,USD 21,01-2023,100,Frontend,null
 Amanda Billie Wunsch,Peru,USD 20,01-2023,123,Frontend,null
-
 Rudolph Finley Langosh,Chile,USD 19,01-2023,155,Backend,null
 Candice James Dickens,Brazil,USD 19,01-2023,141,Backend,null
 Judge Kai Bruen,Peru,USD 28,01-2023,155,Data Engineer,null
-
 Rachael Rowan Cremin,Uruguay,USD 20,01-2023,90,Frontend,null
 Zachary Gray Ondricka,Argentina,USD 21,01-2023,124,Backend,null
+,,,,,,
 Bailey Sage Hamill,Uruguay,USD 31,01-2023,141,Data Engineer,null
 Jefferey Brooklyn Sporer,Uganda,USD 21,01-2023,134,DevOps,null
 Lennie Harper Turner,Uganda,USD 24,01-2023,134,Backend,null
@@ -39,6 +39,7 @@ Wiley Gray Cremin,Uganda,USD 20,01-2023,109,DevOps,null
 Milo Kendall Koch,Sweden,USD 19,01-2023,118,Frontend,null
 Norberto Elliott Haag,Georgia,USD 36,01-2023,107,Data Engineer,null
 Blair Kennedy Bartell,Argentina,USD 18,01-2023,145,DevOps,null
+,,,,,,
 Keagan Jordan Gerhold,Peru,USD 21,01-2023,155,Frontend,null
 Kolby Ellis Bergstrom,Brazil,USD 20,01-2023,127,Frontend,null
 Elaina Reagan Spencer,Chile,USD 36,01-2023,161,Data Engineer,null
