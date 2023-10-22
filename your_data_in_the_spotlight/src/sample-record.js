@@ -6,8 +6,10 @@ exports.createDeveloper = () => {
   const lastName = faker.person.lastName();
 
   const software_stack = faker.helpers.weightedArrayElement([
-    { weight: 5, value: "Backend" }, { weight: 4, value: "DevOps" },
-    { weight: 7, value: "Data Engineer" }, { weight: 9, value: "Frontend" },
+    { weight: 5, value: "Backend" },
+    { weight: 4, value: "DevOps" },
+    { weight: 7, value: "Data Engineer" },
+    { weight: 9, value: "Frontend" },
   ]);
 
   const country = faker.helpers.weightedArrayElement([
@@ -21,7 +23,6 @@ exports.createDeveloper = () => {
     { weight: 3, value: "Colombia" }, { weight: 2, value: "Senegal" },
     { weight: 10, value: "Uruguay" }, { weight: 1, value: "Portugal" },
   ]);
-
 
   return {
     name: `${firstName} ${middleName} ${lastName}`,
@@ -43,9 +44,13 @@ exports.createSampleRecord = (developer, month) => {
   // Mess a little with the data to make report look interesting
   // -------------------------------------------------------------
 
-  // Pump up data science 
+  // Let's make different rates for software stacks
   if (fakeData.software_stack === "Data Engineer") {
     fakeData.rate = Math.floor(fakeData.rate * 1.5);
+  } else if (fakeData.software_stack === "Frontend") {
+    fakeData.rate = Math.floor(fakeData.rate * 1.15);
+  } else if (fakeData.software_stack === "DevOps") {
+    fakeData.rate = Math.floor(fakeData.rate * 0.85);
   }
 
   // The greater the month, the greater the hours worked

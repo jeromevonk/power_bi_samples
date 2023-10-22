@@ -1,6 +1,6 @@
 exports.getCsvHeader = () => {
   // Header for CSV
-  return 'name, country, rate, date, hours_worked, software_stack';
+  return 'developer_name, country, rate, date, hours_worked, software_stack';
 }
 
 exports.convertToCsvRecord = (obj) => {
