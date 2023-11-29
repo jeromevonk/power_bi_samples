@@ -2,7 +2,7 @@
 
 ###### In an era where data drives decisions, the importance of representing data in a meaningful, compelling, and easily digestible manner can’t be overemphasized. This is where Microsoft's Power BI enters the stage, shining a spotlight on your data and transforming it into actionable insights.
 
-In this article, we will learn about Power BI and use data to build an information-rich report:
+In this article, we will learn about Power BI and use data to build an information-rich report (click [here](https://github.com/jeromevonk/power_bi_samples/blob/main/your_data_in_the_spotlight/assets/presentation.gif) to see the animated version):
 
 ![alt_text](1_finished_report.png)
 
