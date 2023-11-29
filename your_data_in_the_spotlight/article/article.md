@@ -4,7 +4,7 @@
 
 In this article, we will learn about Power BI and use data to build an information-rich report (click [here](https://github.com/jeromevonk/power_bi_samples/blob/main/your_data_in_the_spotlight/assets/presentation.gif) to see the animated version):
 
-![alt_text](1_finished_report.png)
+![Report](1_finished_report.png)
 
 ## What is Microsoft Power BI used for?
 
@@ -42,15 +42,15 @@ The data is presented as a CSV file, consisting of roughly 9000 individual recor
 
 To start, click _Get Data > Text/CSV_ and choose the ‘developer_records.csv’ file.
 
-![alt_text](2_get_data.png)
+![Get data](2_get_data.png)
 
 After the application processes the data, you will be presented with a preview. There’s a very tempting ‘Load’ button highlighted in green to accept the data as it is, but it’s strongly recommended to click on ‘**Transform Data**’ instead because, more often than not, you will need to make adjustments. It’s precisely the case for this example, as you can see from the preview:
 
-![alt_text](3_import_data.png)
+![Import data](3_import_data.png)
 
 In this step, you can use the Power Query Editor, which provides a wide range of data transformation and cleaning capabilities, such as removing duplicates, renaming columns, fixing typos, transforming date and time, converting text to the proper case, and creating new columns. It is a good practice to clean the data before analyzing it, and this is the appropriate step to do it.
 
-![alt_text](4_transform_data.png)
+![Transform data](4_transform_data.png)
 
 On the right side of the screen, the **Applied Steps** panel shows the transformations applied to the data:
 
@@ -90,7 +90,7 @@ After configuring it, you can change the visualization type by clicking a differ
 
 To create a report for this article, one Text Box (for the title) and nine visualizations were added:
 
-![alt_text](7_cards.png)
+![Cards](7_cards.png)
 
 The **Card** visualization type was used to showcase the _Total Earnings_ and the number of _Developers_. To add data to a **Card**, select the visualization and drag a measure into the “Fields” area.
 
@@ -104,15 +104,15 @@ By default, the card will show the measure name as the title, which might not be
 
 A **Map** visualization was used to show how remote work is geographically distributed around the globe. The important inputs in this case are **Location** (use the _country _measure) and **Bubble size** (use _Sum of hours_worked_). Optionally, you can add tooltips (sum of earnings, count of distinct developer_name) that will appear when the mouse is over a location.
 
-![alt_text](9_stacked_bar.png)
+![Stacked bar](9_stacked_bar.png)
 
 Three **Stacked bar charts** were created to analyze how much each software stack is being used and generating earnings. In all cases, _software_stack_ is the selected measure for the **Y-axis.** For the **X-axis**, the measures in the respective order are _Sum of hours_worked_, _Average of rate_, and _Sum of earnings_.
 
-![alt_text](10_pie.png)
+![Pie chart](10_pie.png)
 
 The **Pie Chart** comes in handy to visualize percentages. It becomes easy to interpret the proportion of developers working on each stack. This can be achieved by selecting the _software_stack_ measure on the **Legend** area and _Count (Distinct) of developer_name _as **values**.
 
-![alt_text](11_stacked_column.png)
+![Stacked column](11_stacked_column.png)
 
 Finally, a **Stacked column chart** shows the earnings by month, faceted by software stack.
 
@@ -126,7 +126,7 @@ To customize appearance, the first step is to choose a theme on the **View** rib
 
 A tip that can save you a lot of time when customizing is to first format one visualization and apply the same style to other visuals using the **Format Painter** button (a feature that also exists in other Microsoft Apps like Word and Excel).
 
-![alt_text](12_formatting.gif)
+![Formatting](12_formatting.gif)
 
 ## Insights
 
