@@ -57,16 +57,16 @@ On the right side of the screen, the **Applied Steps** panel shows the transform
 * The first three steps were automatically added by Power BI:
   * _Source_: path to the CSV file, choosing delimiters
   * _Promoted Headers_: use the first row of data as column headers
-  * _Changed Type_: two column types were changed. Column **‘date’ **was identified as ‘date’ and ‘**hours_worked’ **was identified as ‘number’
-* The later four steps were done manually:
-* _Removed Blank Rows_ by clicking on _Home > Remove Rows > Remove Blank Rows_;
-* _Removed _the empty column with ‘null’ data by right-clicking the column and choosing _Remove_;
-* Deleted the ‘USD’ prefix on the **‘rate’ **column by right-clicking the column name and then clicking _Replace Values_. When the pop-up appears, input “USD “ (with a trailing space) on the “_Value to Find_” field and leave the “_Replace With_” field empty.
-* Changed ‘**rate’ **column data type to ‘number’;
+  * _Changed Type_: two column types were changed. Column **‘date’** was identified as ‘date’ and ‘**hours_worked’** was identified as ‘number’
+* The last four steps were done manually:
+  * _Removed Blank Rows_ by clicking on _Home > Remove Rows > Remove Blank Rows_;
+  * _Removed _the empty column with ‘null’ data by right-clicking the column and choosing _Remove_;
+  * Deleted the ‘USD’ prefix on the **‘rate’** column by right-clicking the column name and then clicking _Replace Values_. When the pop-up appears, input “USD “ (with a trailing space) on the “_Value to Find_” field and leave the “_Replace With_” field empty.
+  * Changed ‘**rate’** column data type to ‘number’;
 
 There is no ‘Undo’ functionality in this editor (CTRL+Z won’t work), but if you did something wrong by accident, find the step on **Applied Steps** panel and remove it by clicking the ‘X’ that’s placed just to the left.
 
-After inspecting the data, click **Close & Apply** on the **Home **tab to close the Power Query Editor. If you need to access it anytime later, click ‘Transform Data’ on the home tab of the ribbon.
+After inspecting the data, click **Close & Apply** on the **Home** tab to close the Power Query Editor. If you need to access it anytime later, click ‘Transform Data’ on the home tab of the ribbon.
 
 ##
 
@@ -92,7 +92,7 @@ To create a report for this article, one Text Box (for the title) and nine visua
 
 ![alt_text](7_cards.png)
 
-The **Card **visualization type was used to showcase the _Total Earnings_ and the number of _Developers_. To add data to a **Card**, select the visualization and drag a measure into the “Fields” area.
+The **Card** visualization type was used to showcase the _Total Earnings_ and the number of _Developers_. To add data to a **Card**, select the visualization and drag a measure into the “Fields” area.
 
 For the first card, select the _earnings _measure created in the last section. Power BI will likely understand you want to display the **sum **of the earnings. If not, you can easily change it by clicking the dropdown.
 
@@ -106,7 +106,7 @@ A **Map** visualization was used to show how remote work is geographically distr
 
 ![alt_text](9_stacked_bar.png)
 
-Three **Stacked bar charts** were created to analyze how much each software stack is being used and generating earnings. In all cases, _software_stack_ is the selected measure for the **Y-axis.** For the **X-axis, **the measures in the respective order are** _Sum of hours_worked_**, _Average of rate_, and _Sum of earnings_.
+Three **Stacked bar charts** were created to analyze how much each software stack is being used and generating earnings. In all cases, _software_stack_ is the selected measure for the **Y-axis.** For the **X-axis**, the measures in the respective order are _Sum of hours_worked_, _Average of rate_, and _Sum of earnings_.
 
 ![alt_text](10_pie.png)
 
@@ -116,13 +116,13 @@ The **Pie Chart** comes in handy to visualize percentages. It becomes easy to in
 
 Finally, a **Stacked column chart** shows the earnings by month, faceted by software stack.
 
-To achieve this, select the _date _measure for the **X-axis, _Sum of earnings_** for the Y-axis, and _software_stack_ for **Legend**.
+To achieve this, select the _date _measure for the **X-axis**, _Sum of earnings_ for the **Y-axis**, and _software_stack_ for **Legend**.
 
 ### Formatting and appearance
 
 Power BI allows users to customize the appearance of visualizations with precision and flexibility. Users can adjust a wide range of visual elements, such as colors, fonts, data labels, and shapes. This empowers users to match the visual style of their reports to their organization's branding or personal preferences, enhancing the overall impact and clarity of their data presentations.
 
-To customize appearance, the first step is to choose a theme on the **View **ribbon. After that, you can choose different colors for your visuals. If you look at it closely, you’ll realize that the colors are consistent through different visualizations. Whenever a software stack is referenced, it always has the same color, for example. Also, every visualization has a rounded border and a shadow to make it more appealing.
+To customize appearance, the first step is to choose a theme on the **View** ribbon. After that, you can choose different colors for your visuals. If you look at it closely, you’ll realize that the colors are consistent through different visualizations. Whenever a software stack is referenced, it always has the same color, for example. Also, every visualization has a rounded border and a shadow to make it more appealing.
 
 A tip that can save you a lot of time when customizing is to first format one visualization and apply the same style to other visuals using the **Format Painter** button (a feature that also exists in other Microsoft Apps like Word and Excel).
 
