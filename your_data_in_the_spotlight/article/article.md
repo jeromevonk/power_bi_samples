@@ -42,11 +42,11 @@ The data is presented as a CSV file, consisting of roughly 9000 individual recor
 
 To start, click _Get Data > Text/CSV_ and choose the ‘developer_records.csv’ file.
 
-![alt_text](2_get data.png)
+![alt_text](2_get_data.png)
 
 After the application processes the data, you will be presented with a preview. There’s a very tempting ‘Load’ button highlighted in green to accept the data as it is, but it’s strongly recommended to click on ‘**Transform Data**’ instead because, more often than not, you will need to make adjustments. It’s precisely the case for this example, as you can see from the preview:
 
-![alt_text](3_import data.png)
+![alt_text](3_import_data.png)
 
 In this step, you can use the Power Query Editor, which provides a wide range of data transformation and cleaning capabilities, such as removing duplicates, renaming columns, fixing typos, transforming date and time, converting text to the proper case, and creating new columns. It is a good practice to clean the data before analyzing it, and this is the appropriate step to do it.
 
