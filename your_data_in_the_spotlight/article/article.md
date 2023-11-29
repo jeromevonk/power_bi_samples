@@ -94,7 +94,7 @@ To create a report for this article, one Text Box (for the title) and nine visua
 
 The **Card** visualization type was used to showcase the _Total Earnings_ and the number of _Developers_. To add data to a **Card**, select the visualization and drag a measure into the “Fields” area.
 
-For the first card, select the _earnings _measure created in the last section. Power BI will likely understand you want to display the **sum **of the earnings. If not, you can easily change it by clicking the dropdown.
+For the first card, select the _earnings _measure created in the last section. Power BI will likely understand you want to display the **sum** of the earnings. If not, you can easily change it by clicking the dropdown.
 
 For the second card, select the _developer_name _measure. Power BI will not know your intentions here, so it will probably show the name of the first developer. Change it to **Count (Distinct)** to get the number of developers that reported work at least once in the year.
 
@@ -102,7 +102,7 @@ By default, the card will show the measure name as the title, which might not be
 
 ![Map](8_map.png)
 
-A **Map** visualization was used to show how remote work is geographically distributed around the globe. The important inputs in this case are **Location** (use the _country _measure) and **Bubble size **(use _Sum of hours_worked_). Optionally, you can add tooltips (sum of earnings, count of distinct developer_name) that will appear when the mouse is over a location.
+A **Map** visualization was used to show how remote work is geographically distributed around the globe. The important inputs in this case are **Location** (use the _country _measure) and **Bubble size** (use _Sum of hours_worked_). Optionally, you can add tooltips (sum of earnings, count of distinct developer_name) that will appear when the mouse is over a location.
 
 ![alt_text](9_stacked_bar.png)
 
