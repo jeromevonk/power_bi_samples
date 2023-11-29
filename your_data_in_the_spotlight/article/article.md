@@ -20,7 +20,7 @@ In addition to being a crucial tool for product managers and product owners, Mic
 
 Microsoft offers different pricing tiers for Power BI, catering to various needs and budgets. At the most basic level, there's **Power BI Desktop**, which is entirely free to use. This standalone software allows users to create reports, visualize data, and perform basic data analytics. It's perfect for individuals or small teams exploring data visualization without a hefty price tag.
 
-Then there's** Power BI Pro**, a paid version that provides more advanced collaboration features, enabling users to publish, share, and collaborate on reports and dashboards within their organization. With the Pro version, more extensive data capacities, additional sharing options, and premium content packs from services like Salesforce and Dynamics 365 become accessible.
+Then there's **Power BI Pro**, a paid version that provides more advanced collaboration features, enabling users to publish, share, and collaborate on reports and dashboards within their organization. With the Pro version, more extensive data capacities, additional sharing options, and premium content packs from services like Salesforce and Dynamics 365 become accessible.
 
 Lastly, there's **Power BI Premium** for larger enterprises or businesses requiring even more extensive capabilities. This tier provides dedicated cloud resources, greater storage and data refresh rates, and advanced AI-driven data analytics capabilities.
 
@@ -66,7 +66,7 @@ On the right side of the screen, the **Applied Steps** panel shows the transform
 
 There is no ‘Undo’ functionality in this editor (CTRL+Z won’t work), but if you did something wrong by accident, find the step on **Applied Steps** panel and remove it by clicking the ‘X’ that’s placed just to the left.
 
-After inspecting the data, click** Close & Apply** on the **Home **tab to close the Power Query Editor. If you need to access it anytime later, click ‘Transform Data’ on the home tab of the ribbon.
+After inspecting the data, click **Close & Apply** on the **Home **tab to close the Power Query Editor. If you need to access it anytime later, click ‘Transform Data’ on the home tab of the ribbon.
 
 ##
 
@@ -102,17 +102,17 @@ By default, the card will show the measure name as the title, which might not be
 
 ![Map](8_map.png)
 
-A **Map **visualization was used to show how remote work is geographically distributed around the globe. The important inputs in this case are **Location** (use the _country _measure) and **Bubble size **(use _Sum of hours_worked_). Optionally, you can add tooltips (sum of earnings, count of distinct developer_name) that will appear when the mouse is over a location.
+A **Map** visualization was used to show how remote work is geographically distributed around the globe. The important inputs in this case are **Location** (use the _country _measure) and **Bubble size **(use _Sum of hours_worked_). Optionally, you can add tooltips (sum of earnings, count of distinct developer_name) that will appear when the mouse is over a location.
 
-![alt_text](9_stacked bar.png)
+![alt_text](9_stacked_bar.png)
 
 Three **Stacked bar charts** were created to analyze how much each software stack is being used and generating earnings. In all cases, _software_stack_ is the selected measure for the **Y-axis.** For the **X-axis, **the measures in the respective order are** _Sum of hours_worked_**, _Average of rate_, and _Sum of earnings_.
 
 ![alt_text](10_pie.png)
 
-The **Pie Chart** comes in handy to visualize percentages. It becomes easy to interpret the proportion of developers working on each stack. This can be achieved by selecting the _software_stack_ measure on the **Legend **area and _Count (Distinct) of developer_name _as **values**.
+The **Pie Chart** comes in handy to visualize percentages. It becomes easy to interpret the proportion of developers working on each stack. This can be achieved by selecting the _software_stack_ measure on the **Legend** area and _Count (Distinct) of developer_name _as **values**.
 
-![alt_text](11_stacked column.png)
+![alt_text](11_stacked_column.png)
 
 Finally, a **Stacked column chart** shows the earnings by month, faceted by software stack.
 
